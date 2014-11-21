@@ -19,15 +19,18 @@ var TestCrypt=new FileCrypt('aes-256-cbc',hashkey,iv);
 var enc = TestCrypt.encrypt(file_content);
 
 var dec = TestCrypt.decrypt(enc);
- 
+
+
+
 console.log("Length: ", enc.length);
+
 console.log("Encrypted data in Base64:", enc);
+
 console.warn("Decrypted text: " + dec);
 
 
 Licence
 ========
-
 
 Author: Janos Vajda
 
