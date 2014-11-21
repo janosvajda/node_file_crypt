@@ -9,10 +9,13 @@ Example
 var file_content = "What a piece of work is man! how noble in reason! how infinite in faculty! in form and moving how express and admirable! in action how like an angel! in apprehension how like a god! the beauty of the world, the paragon of animals!";
 
 
-var iv = 'a2xhcgAAAAAAAAAA'; //16 character
+var iv = 'JhdgeTTERWQSagdO'; //16 characters
+
+console.log(iv.length);
+
 
 var hashkey='jhkjhkjhkhjkj'; //hash key
-console.log(iv.length);
+
 
 var TestCrypt=new FileCrypt('aes-256-cbc',hashkey,iv);
 
